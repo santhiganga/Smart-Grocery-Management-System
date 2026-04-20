@@ -52,7 +52,7 @@ The application helps manage inventory, track sales, and visualize insights thro
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/santhiganga/Smart-Grocery-Management-system.git
+   git clone https://github.com/santhiganga/Smart-Grocery-Management-System.git
 cd project-name
 pip install -r requirements.txt
 streamlit run app.py
