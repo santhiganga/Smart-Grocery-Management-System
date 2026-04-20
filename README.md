@@ -1,11 +1,12 @@
-# LogiTrack : Inventory Management System
+# Smart Grocery Management System (Streamlit + MySQL)
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--03--24-brightgreen)
 
-LogiTrack is a modern, web-based inventory management system built with Python and Streamlit. It provides real-time optimization of warehouse inventory distribution, order management, and supply chain analytics.
+A data-driven grocery inventory and analytics system built using Python, Streamlit, and MySQL. 
+The application helps manage inventory, track sales, and visualize insights through interactive dashboards.
 
 ## a) Features
 
@@ -16,25 +17,25 @@ LogiTrack is a modern, web-based inventory management system built with Python a
 - Supply chain performance indicators
 - Interactive data visualizations
 
-### 🗺2) Inventory Distribution
+### 🗺2) Inventory Management
 - Multi-warehouse optimization
 - Geographic distribution mapping
 - Cost-effective allocation algorithms
 - Real-time route visualization
 
-### 3) Order Management
+### 3) Order Tracking Management
 - Order tracking and status updates
 - Priority-based fulfillment
 - Delivery deadline monitoring
 - Automated allocation suggestions
 
-### 4) Warehouse Management
+### 4) Database Integration
 - Capacity utilization tracking
 - Stock level monitoring
 - Storage cost optimization
 - Location-based analytics
 
-### 5) Supplier Management
+### 5) Stock Alerts
 - Supplier performance metrics
 - Reliability scoring
 - Lead time tracking
@@ -51,8 +52,10 @@ LogiTrack is a modern, web-based inventory management system built with Python a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/tanisheesh/logitrack.git
-   cd logitrack
+   git clone https://github.com/santhiganga/Smart-Grocery-Management-system.git
+cd project-name
+pip install -r requirements.txt
+streamlit run app.py
    ```
 
 2. Create and activate virtual environment (optional but recommended):
@@ -103,12 +106,11 @@ logitrack/
    - Upload your data (CSV)
    - Database connection
 3. **Navigation:** Use the sidebar to access different features:
-   - Overview
-   - Inventory Management
-   - Order Management
-   - Supplier Management
-   - Optimization
-   - User Guide
+   -Expiry tracking
+   -Distance-based supplier selection
+   -Daily revenue chart
+   -CSV upload for products
+   -Search/filter products
 
 ## e) Data Format
 
